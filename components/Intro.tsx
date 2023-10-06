@@ -48,7 +48,7 @@ export default function Intro() {
             }}
             className="text-2xl absolute bottom-0 right-0"
           >
-            🫱🏼‍🫲🏼
+            ☕
           </motion.span>
         </div>
       </div>
@@ -88,7 +88,7 @@ export default function Intro() {
         <a
           href="./CV.pdf"
           download={true}
-          className="cursor-pointer group transition active:scale-105 text-sm sm:text-md px-5 bg-white sm:px-7 sm:py-3 py-2 flex items-center gap-2 rounded-full md:text-lg hover:scale-110 borderBlack"
+          className="cursor-pointer group transition active:scale-105 text-sm sm:text-md px-5 bg-white sm:px-7 sm:py-3 py-2 flex items-center gap-2 rounded-full md:text-lg hover:scale-110 borderBlack dark:bg-white/10"
         >
           Télécharger le CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
@@ -96,19 +96,18 @@ export default function Intro() {
         <a
           href="https://linkedin.com"
           target="_blank"
-          className="cursor-pointer transition active:scale-105 hover:scale-110 bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full borderBlack hover:text-gray-950"
+          className="cursor-pointer transition active:scale-105 hover:scale-110 bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full borderBlack hover:text-gray-950 dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
         </a>
-        
+
         <a
           href="https://github.com/Matteo-CB"
           target="_blank"
-          className="cursor-pointer transition hover:scale-110 text-gray-700 bg-white p-4 flex active:scale-105 items-center gap-2 text-[1.35rem] rounded-full borderBlack hover:text-gray-950"
+          className="cursor-pointer transition hover:scale-110 text-gray-700 bg-white p-4 flex active:scale-105 items-center gap-2 text-[1.35rem] rounded-full borderBlack hover:text-gray-950 dark:bg-white/10 dark:text-white/60"
         >
           <FaGithubSquare />
         </a>
-        
       </motion.div>
     </section>
   );
