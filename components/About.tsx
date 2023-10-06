@@ -4,7 +4,6 @@ import React from "react";
 import SectionHeading from "./SectionHeading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-
 export default function About() {
   const { ref } = useSectionInView("About");
 
@@ -44,6 +43,7 @@ export default function About() {
           la pâtisserie et apprendre des langues.
         </span>
       </p>
+      
     </motion.section>
   );
 }

@@ -78,7 +78,7 @@ export default function Intro() {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
           }}
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gray-900 text-white sm:px-7 sm:py-3 py-2 px-5 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 text-sm sm:text-md md:text-lg hover:bg-gray-950 active:scale-105 transition"
           href="#contact"
         >
           Contactez-moi{" "}
@@ -88,7 +88,7 @@ export default function Intro() {
         <a
           href="./CV.pdf"
           download={true}
-          className="cursor-pointer group transition active:scale-105 bg-white px-7 py-3 flex items-center gap-2 rounded-full hover:scale-110 borderBlack"
+          className="cursor-pointer group transition active:scale-105 text-sm sm:text-md px-5 bg-white sm:px-7 sm:py-3 py-2 flex items-center gap-2 rounded-full md:text-lg hover:scale-110 borderBlack"
         >
           Télécharger le CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
@@ -100,6 +100,7 @@ export default function Intro() {
         >
           <BsLinkedin />
         </a>
+        
         <a
           href="https://github.com/Matteo-CB"
           target="_blank"
@@ -107,6 +108,7 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
+        
       </motion.div>
     </section>
   );

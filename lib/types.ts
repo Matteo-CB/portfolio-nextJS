@@ -18,3 +18,5 @@ export type SectionHeadingProps = {
 };
 
 export type ProjectsProps = typeof projectsData[number];
+
+export type Theme = "light" | "dark";
